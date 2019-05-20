@@ -3,6 +3,7 @@
 #### 安装
 ```
 git clone https://github.com/AdolphGithub/swoft.git swoft
+cd swoft && composer install
 ```
 原谅我如此处理,后期会使用composer create project里进行处理.先尝鲜吧.
 #### 约定
