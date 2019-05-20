@@ -30,7 +30,7 @@ return array_merge($config,[
     ],
     'http'    => [
         'host'  => env('HTTP_HOST', '0.0.0.0'),
-        'port'  => 9001,
+        'port'  => env('HTTP_PORT', 9001),
         'mode'  => env('HTTP_MODE', SWOOLE_PROCESS),
         'type'  => env('HTTP_TYPE', SWOOLE_SOCK_TCP),
     ],
