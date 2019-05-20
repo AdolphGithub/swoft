@@ -44,7 +44,7 @@
             "admin\\app\\": "admin/app"
         },
         "files": [
-            "www/app/Helper/Functions.php"
+            "common/helper/functions.php"
         ]
     },
     "scripts": {
